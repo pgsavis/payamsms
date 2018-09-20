@@ -9,7 +9,9 @@
 namespace pgsavis\payamsms;
 
 
-class payamsmsServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class payamsmsServiceProvider extends ServiceProvider
 {
     public  function register(){
         $this->app->bind('payamsms',function(){
