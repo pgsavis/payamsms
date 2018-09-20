@@ -1,6 +1,6 @@
 <?php
 return [
-    'BASEURL' => '',
+    'BASEURL' => 'http://www.payamsms.com/rest/',
     'APIKEY' => '',
     'PASS' => '',
     'FROM' => ''
