@@ -3,7 +3,7 @@
     "description": "A laravel package for payamsms panel",
     "keywords": ["payamsms", "sms", "api"],
     "require": {
-        "illuminate/support": "^5.7"
+        "illuminate/support": "~5"
     },
     "license": "MIT",
     "authors": [
