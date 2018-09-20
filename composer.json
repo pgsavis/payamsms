@@ -1,0 +1,20 @@
+{
+    "name": "pgsavis/payamsms",
+    "description": "A laravel package for payamsms panel",
+    "keywords": ["payamsms", "sms", "api"],
+    "require": {
+        "illuminate/support": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sayyed Jamal Ghasemi",
+            "email": "jamal13647850@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" :{
+            "pgsavis\\payamsms\\" : "src/"
+        }
+    }
+}
